@@ -1,0 +1,25 @@
+<section class="container-lg p-responsive py-5 py-md-6 my-lg-6">
+    {% assign counter = 0 %}
+    <div class="clearfix gutter-spacious">
+    {% for pro in site.data.pros %}
+      <div class="mb-3 mb-md-5 col-md-6 float-left">
+        <h2 class="alt-h3 mb-2">
+          {% if pro.octicon %}
+            {% octicon {{ pro.octicon }} height:28 class:"fill-blue d-inline mr-2" aria-label:{{ pro.octicon }} %}
+          {% endif %}
+          {{ pro.title }}
+        </h2>
+        <p class="text-gray">{{ pro.description }}</p>
+      </div>
+      {% assign counter = counter | plus: 1 %}
+      {% if counter == 2 %}
+        </div>
+        <div class="clearfix gutter-spacious">
+        {% assign counter = 0 %}
+      {% endif %}
+    {% endfor %}
+    </div>
+    <p class="text-center">
+      <a href="/about" class="btn btn-outline">Learn more about OSeMOSYS &rarr;</a>
+    </p>
+  </section>
