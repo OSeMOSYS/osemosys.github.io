@@ -1,0 +1,23 @@
+<div class="container-lg p-responsive py-5 py-md-2 ">
+  <div class="clearfix gutter-spacious">
+    <div class="col-md-12 float-left">
+      <h2 class="alt-h3 mb-2">
+        {% if reference.octicon %}
+          {% octicon {{ reference.octicon }} height:28 class:"fill-blue d-inline mr-2" aria-label:{{ reference.octicon }} %}
+        {% endif %}
+        {{ reference.title }}
+      </h2>
+      <p class="text-gray">{{ reference.description }}</p>
+    </div>
+  </div>
+  <a href="{{ reference.url }}"> {{ reference.authors }} ({{ reference.year }}), <i>{{ reference.journal }}</i>{% if reference.volume and reference.pages %}, {{ reference.volume }}, p. {{ reference.pages }}{% endif %}.</a>
+
+  {%if reference.abstract%}
+  <div class="col-md-12 animate-out mb-2">
+        <p class="alt-lead text-gray text-justify-between col-md-15 mx-auto" style="text-align: justify; font-size: 0.875em;">
+          {{ reference.abstract }}
+        </p>
+  </div>
+  {% endif %}
+
+</div>

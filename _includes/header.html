@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta property="og:image" content="{{ "/assets/img/osemosys-logo.png" | relative_url }}" />
+  <meta property="og:image:alt" content="CCG" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="{{ "/assets/img/osemosys-logo.png" | relative_url }}" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="{{ "/assets/css/style.css" | relative_url }}">
+  <link rel="preload" as="font" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i" crossorigin>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  {% seo %}
+</head>
+
+<body{% if page.id %} id="{{ page.id }}"{% endif %} class="{{ page.layout }}">
+
+  <div class="page-header pt-4 pb-5">
+    <div class="container-lg">
+      <div class="d-flex justify-content-between align-items-center">
+
+        <div style="display: inline-block;">
+          <a href="{{ "/" | relative_url}}"><img class="logo py-3" src="{{ "/assets/img/osemosys-logo.png" | relative_url}}" alt="CLEWs"></a>
+        </div>
+        <div class="text-center" style="display: inline-block;">
+          <a href="{{ "/" | relative_url}}"><img class="logo py-3" src="{{ "/assets/img/logomark1.svg" | relative_url}}" alt="CLEWs"></a>
+          <ul class="d-none d-md-block">
+            {% include subpage_links.html %}
+          </ul>     
+        </div>
+        <!-- 在小屏幕显示 Primer dropdown -->
+        <details class="dropdown details-reset details-overlay d-md-none" style="display: inline-block; margin-left: auto;margin-top: 2.5rem;">
+          <summary class="btn btn-large float-right" aria-haspopup="true">
+            <span class="text-white text-bold float-right"> {% octicon three-bars height:28 class:"fill-white mr-2" aria-label:terminal %}
+            </span>
+          </summary>
+          <ul class="dropdown-menu dropdown-menu-se" style="display: inline-block;">
+            {% include subpage_links.html %}
+          </ul>
+        </details>  
+      </div>  
+    </div>
+  
+    <!-- .full-width here gets closed on support-page.html and home.html layouts -->
+           

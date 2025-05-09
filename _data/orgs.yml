@@ -1,0 +1,67 @@
+- name: ccg
+  type: github
+  github: climatecompatiblegrowth
+  logo: /assets/img/CCG logo.png
+  height: 80
+  display_name: CCG
+  url: https://climatecompatiblegrowth.com/ 
+
+- name: lboro
+  logo: /assets/img/Loughborough University.png
+  height: 60
+  display_name: Loughborough University
+  url: "/coming-soon" 
+ 
+- name: optimus
+  logo: /assets/img/OpTIMUS logo.jpg
+  height: 60
+  display_name: OpTIMUS
+  url: "/coming-soon" 
+
+- name: ou
+  logo: /assets/img/OU_Master_LOGO_BLUE_63mm.png
+  height: 60
+  display_name: Open University
+  url: "/coming-soon" 
+
+- name: SFU
+  logo: /assets/img/SEE Logo_RGB.png
+  height: 80
+  display_name: School of Sustainable Energy Engineering
+  url: https://www.iaea.org/topics/economics/energy-economic-and-environmental-analysis/climate-land-energy-water-strategies 
+
+- name: undesa
+  logo: /assets/img/UNDESA logo.png
+  height: 80
+  display_name: UNDESA
+  url: https://un-modelling.github.io/modelling-tools/
+
+- name: kth
+  logo: /assets/img/Kth_logo.svg_-266x300.png
+  height: 80
+  display_name: KTH
+  url: https://www.energy.kth.se/energy-systems/research-areas/integrated-climate-land-energy-and-water-systems-1.1183760 
+
+- name: ukaid
+  logo: /assets/img/UK Aid.png
+  height: 60
+  display_name: UK Aid
+  url: "/coming-soon"
+
+- name: iaea
+  logo: /assets/img/IAEA (slogan).png
+  height: 60
+  display_name: IAEA
+  url: https://www.iaea.org/topics/economics/energy-economic-and-environmental-analysis/climate-land-energy-water-strategies 
+
+- name: oxford
+  logo: /assets/img/University-of-Oxford.svg
+  height: 50
+  display_name: University of Oxford
+  url: "/coming-soon" 
+  
+- name: cambridge
+  logo: /assets/img/University-of-Cambridge-Logo.svg
+  height: 50
+  display_name: University of Cambridge
+  url: "/coming-soon" 

@@ -1,0 +1,16 @@
+:root {
+  --borderRadius-full: 624.9375rem; /* Use this border radius for pill shaped elements */
+  --borderRadius-large: 0.75rem;
+  --borderRadius-medium: 0.375rem;
+  --borderRadius-small: 0.1875rem;
+  --borderWidth-thick: 0.125rem;
+  --borderWidth-thicker: 0.25rem;
+  --borderWidth-thin: 0.0625rem;
+  --outline-focus-offset: -0.125rem;
+  --outline-focus-width: 0.125rem;
+  --borderRadius-default: var(--borderRadius-medium);
+  --borderWidth-default: var(--borderWidth-thin);
+  --boxShadow-thick: inset 0 0 0 var(--borderWidth-thick);
+  --boxShadow-thicker: inset 0 0 0 var(--borderWidth-thicker);
+  --boxShadow-thin: inset 0 0 0 var(--borderWidth-thin); /* Thin shadow for borders */
+}

@@ -1,0 +1,628 @@
+- abstract: The unsustainable use of natural resources, in particular soil degradation
+    and pollution, is one of the main factors contributing to the climate and biodiversity
+    crisis. The European Union has outlined a new European Green Deal, whose objectives
+    include increasing the overall quality of the agri-food chain in relation to environmental
+    sustainability, focusing on reducing the use of pesticides and increasing the
+    share of organic in overall production. A Nexus thinking perspective is applied
+    to analyse this topic over a 50-year time horizon (2010–2060) for the agricultural
+    system of the Basilicata Region (Southern Italy), represented by the TIMES Land-WEF,
+    an optimizing, bottom-up energy-technology model, built to investigate the interactions
+    and interrelations between water, energy food and land. The novelty of this modelling
+    approach is the choice of land use as the guiding parameter of the optimization
+    process. The main objectives of the Farm to Fork Strategy are modelled as system
+    constraints and the scenario analysis allows to characterise their effects on
+    the evolution of the agricultural system over the examined time. The results show
+    that the pesticide reduction constraint leads to an increase in land use by organic
+    crops from 24.6 % to 32.4 % in 2060. In particular, this is due to the increased
+    contribution of cereal, forage, olive growing crops, permanent meadows and pastures,
+    which lead to a 46 % reduction in irrigation water consumption. On the other hand,
+    the reduction in inorganic fertilizers is not accompanied by a significant increase
+    in organic crops, but resulted in the reduction of cereal crops.
+  authors: 'Di Leo et al. '
+  country: Italy
+  coverage: National
+  doi: 10.1186/s42269-024-01255-6
+  journal: Energy Nexus
+  key_points: TIMES Land-WEF Model
+  link: https://www.sciencedirect.com/science/article/pii/S2772427124000469#bib0047
+  open_access_data: Available on Request
+  os_oa: 'No'
+  title: 'The TIMES Land-WEF model: An integrated analysis of the agricultural system
+    of the Basilicata Region (Southern Italy)'
+  tool: TIMES
+  url: https://doi.org/10.1186/s42269-024-01255-6
+  year: 2024
+- abstract: The increasing prevalence of wicked problems, such as climate change,
+    requires a transformation in education that equips students with the skills, competencies
+    and knowledge to address these complex challenges. Wicked problems are characterised
+    by their incomplete, contradictory, and ever-changing requirements, rendering
+    them difficult to resolve due to intricate interdependencies. Nexus thinking offers
+    a valuable approach to these problems, as it emphasises the interconnectedness
+    of various systems, fostering a more comprehensive understanding of the challenges
+    at hand. In this paper, we propose the use of Climate, Land, Energy, and Water
+    (CLEWs) modelling as an innovative pedagogical strategy tool to cultivate nexus
+    thinking among students. Building upon the pioneering CLEWs pedagogical work of
+    Shivakumar et al., in their ‘Introduction to CLEWs’ Open Learn course, we demonstrate
+    how this approach can be utilised in a Higher Education (HE) setting in the form
+    of a Masters’ module for geography students.
+  authors: 'Martindale et al. '
+  country: United Kingdom
+  coverage: Local
+  doi: 10.3390/en16145539
+  journal: Energies
+  key_points: '1. Highlights CLEWs Modelling as a Nexus approach for pedagogical thinking.
+
+
+    2. Gives a taught example of a masters course at Loughborough University, United
+    Kingdom.
+
+
+    3. Teaching of wicked problems require atypical approaches to equip students with
+    the capabilities to address these problems in the future.'
+  link: 'https://www.mdpi.com/1996-1073/16/14/5539 '
+  open_access_data: .nan
+  os_oa: .nan
+  title: 'Empowering Tomorrow’s Problem Solvers: Nexus Thinking and CLEWs Modelling
+    as a Pedagogical Approach to Wicked Problems'
+  tool: OSeMOSYS
+  url: https://doi.org/10.3390/en16145539
+  year: 2023
+- abstract: This study was motivated by the high reliance on hydropower plants (HPPs)
+    developed and planned along the river Nile and the fact that drought events are
+    the most imminent and drastic threats to Uganda’s power production. The study
+    aimed to assess HPPs’ resilience and the effectiveness of selected adaptation
+    measures. The climate, land, energy, and water system (CLEWs) framework was employed
+    to assess resilience amidst competing water demands and stringent environmental
+    flow requirements. Under extreme dry conditions, power generation could plummet
+    by 91% over the next 40 years, which translates into an annual per capita consumption
+    of 19 kWh, barely sufficient to sustain a decent socioeconomic livelihood. During
+    arid conditions, climate models predicted an increase in streamflow with increasing
+    radiative forcing. Restricting the ecological flow to 150 m3/s could improve generation
+    by 207%. In addition, if planned power plants were to be built 5 years ahead of
+    schedule, the normalized mean annual plant production could increase by 23%. In
+    contrast, increasing reservoir volumes for planned power plants will have no significant
+    impact on generation. The path to HPP resilience could entail a combination of
+    diversifying the generation mix, installing generators with varying capacities,
+    and incorporating adjustable orifices on reservoirs.
+  authors: Mujjuni et al.
+  country: Uganda
+  coverage: National
+  doi: 10.3390/cli11090177
+  journal: Climate
+  key_points: '1. CLEWs was applied for the Water Balance Model to fully analyse water
+    demand and usage, with WEAP being the chosen model.
+
+
+    2.  Four major long-term scenarios were modelled: (i) cycling historical weather
+    to the future, (ii) extreme dry
+
+    conditions, (iii) effects of emissions pathways, and (iv) effectiveness of adaptation.
+
+
+    3. Due to Uganda''s reliance on the River Nile and sucseptibility to drought,
+    they questioned whether they would be actually be able to implement the adaptative
+    strategies presented in this report.'
+  link: 'https://www.mdpi.com/2225-1154/11/9/177 '
+  open_access_data: 'Yes'
+  os_oa: 'No'
+  title: Uganda’s Hydropower System Resilience to Extreme Climate Variability
+  tool: WEAP
+  url: https://doi.org/10.3390/cli11090177
+  year: 2023
+- abstract: This study estimates job creation from Costa Rica's transition to net-zero
+    emissions by 2050, contrasting it with a business-as-usual scenario (BAU) using
+    employment multipliers from Costa Rica’s input–output matrix. The model is soft-linked
+    with a bottom-up technology‒rich regional model of the CLEW sectors in Costa Rica.
+    A robust decision-making-inspired approach is taken to assess the effects of uncertainty
+    on the estimations. The study addresses a literature gap in modeling subnational
+    employment while accounting for long-term uncertainty and allows to identify economic
+    activities affected by the transformation, so that policies regarding a just transition can
+    be properly developed and stakeholders incentivized to take active participation
+    in the process. Under baseline assumptions, a net-zero economy would have 135
+    thousand more jobs by 2050 than the BAU, equivalent to 7% of the employed population
+    in 2017. Energy-related jobs would triple by mid-21st century, and regions capitalizing
+    on renewables would perceive the highest gain. When considering uncertainty, the
+    net jobs range between 35‒750 thousand. Since net positive outcomes in terms of
+    jobs are feasible, global governance should focus efforts on policies that enhance
+    these.
+  authors: 'Chacon et al. '
+  country: Costa Rica
+  coverage: National
+  doi: 10.1016/j.eng.2023.05.015
+  journal: Advances in Climate Science Research
+  key_points: '1. Used Leontief multipliers to assess the impact of the transition
+    to a net-zero economy on employment of CLEW sectors.
+
+
+    2. Concluded that a Net Zero scenario would produce 135 thousand more jobs by
+    2050.
+
+
+    3. Stated that future studies would benefit from analysing fluctuations in trade
+    and the effect on the economy.'
+  link: https://www-sciencedirect-com.iclibezp1.cc.ic.ac.uk/science/article/pii/S1674927823001545?via%3Dihub#bib44
+  open_access_data: 'Yes'
+  os_oa: 'Yes'
+  title: The regional employment implications of a net-zero economy in Costa Rica
+    under uncertainty
+  tool: OSeMOSYS
+  url: https://doi.org/10.1016/j.eng.2023.05.015
+  year: 2023
+- abstract: The Climate, Land, Energy and Water systems (CLEWs) approach guides the
+    development of integrated assessments. The approach includes an analytical component
+    that can be performed using simple accounting methods, soft-linking tools, incorporating
+    cross-systems considerations in sectoral models, or using one modelling tool to
+    represent CLEW systems. This paper describes how a CLEWs quantitative analysis
+    can be performed using one single modelling tool, the Open Source Energy Modelling
+    System (OSeMOSYS). Although OSeMOSYS was primarily developed for energy systems
+    analysis, the tool’s functionality and flexibility allow for its application to
+    CLEWs. A step-by-step explanation of how climate, land, energy, and water systems
+    can be represented with OSeMOSYS, complemented with the interpretation of sets,
+    parameters, and variables in the OSeMOSYS code, is provided. A hypothetical case
+    serves as the basis for developing a modelling exercise that exemplifies the building
+    of a CLEWs model in OSeMOSYS. System-centred scenario analysis is performed with
+    the integrated model example to illustrate its application. The analysis of results
+    shows how integrated insights can be derived from the quantitative exercise in
+    the form of conflicts, trade-offs, opportunities, and synergies. In addition to
+    the modelling exercise, using the OSeMOSYS-CLEWs example in teaching, training
+    and open science is explored to support knowledge transfer and advancement in
+    the field.
+  authors: 'Ramos et al. '
+  country: .nan
+  coverage: .nan
+  doi: 10.1016/j.envsci.2022.08.013
+  journal: Environmental Science and Policy
+  key_points: '1. Detailed explanation of how the CLEWs Framework can be applied using
+    OSeMOSYS.
+
+
+    2. Reference study was presented to showcase results, as well as outlining many
+    aspects from basic concepts to what data is required.
+
+
+    3. This paper can be used for communication in discussions and dialogue on Nexus
+    broadly.'
+  link: 'https://www.sciencedirect.com/science/article/pii/S1462901122002167?ref=pdf_download&fr=RR-2&rr=8be63ce7586871f0 '
+  open_access_data: 'Yes'
+  os_oa: 'Yes'
+  title: Climate, Land, Energy and Water systems interactions – From key concepts
+    to model implementation with OSeMOSYS
+  tool: OSeMOSYS
+  url: https://doi.org/10.1016/j.envsci.2022.08.013
+  year: 2022
+- abstract: In this paper the Climate, Land, Energy, and Water system (CLEWs) interactions
+    of biofuels production are addressed. We utilize an open-source modelling framework
+    to assess direct and indirect impacts of biofuels on long-term electricity generation,
+    land, and water use. We analyse a switchgrass biofuels pathway and find that while
+    the land use implications are substantial, increasing by 646,190 km 2 in agricultural
+    land area, the impacts on water systems, which increases by approximately 222
+    billion m 3 compared to the baseline, may be even more limiting for the Canadian
+    context. While switchgrass biofuels can contribute low-carbon dispatchable electricity,
+    the land and water use impacts suggest that any biofuels should be used for hard
+    to decarbonize sectors prior to using them for electricity.
+  authors: Kuling et al.
+  country: Canada
+  coverage: National
+  doi: 10.1016/j.esr.2022.100773
+  journal: Energy Strategy Reviews
+  key_points: '1. Incorporates OSeMOSYS Global for energy side of the model.
+
+
+    2. Concluded that a likely limitation of biofuels in Canada is due to water use,
+    not land use.
+
+
+    3. Stated that biofeuls are likely to be more beneficial in sectors other an electricity,
+    such as transportation and industry, easing the burden of the electricity sector
+    during the transition.'
+  link: 'https://www-sciencedirect-com.iclibezp1.cc.ic.ac.uk/science/article/pii/S2211467X22001237?via%3Dihub '
+  open_access_data: 'Yes'
+  os_oa: 'Yes'
+  title: Applying the open-source climate, land, energy, and water systems (CLEWs)
+    model to Canada
+  tool: OSeMOSYS
+  url: https://doi.org/10.1016/j.esr.2022.100773
+  year: 2022
+- abstract: The Water-Energy-Food (WEF) framework is widely used to address sustainability and
+    resource management questions. However, many WEF methods miss engaging with stakeholders
+    in the process. In this study, we introduce a stakeholder-driven and model-supported
+    robust nexus decision-making framework. This methodology is exemplified by a case
+    study in the Souss-Massa basin (SMB) which has significant importance for the
+    agricultural sector in Morocco. However, the water scarcity exacerbated by climate
+    change, overexploitation of groundwater and heavy use of fossil fuelsfor pumping
+    is threatening the future of this fertile land. An integrated agriculture, water
+    and energy model was developed to explore various potential solutions or scenarios
+    such as desalination, wastewater reuse and improved water productivity. The analysis
+    revealed that engaging with stakeholders and developing common robust nexus decision
+    metrics is essential to establishing a shared and transparent approach to address
+    the complicated nexus challenges. It also showed that no one solution can address
+    all nexus challenges and highlighted the need for an integrated strategy that
+    stimulates the contributions from different sectors. Finally, the transition from
+    fossil fuel groundwater pumping to solar pumping is shown to be economically and
+    environmentally viable.
+  authors: Almulla et al.
+  country: Morocco
+  coverage: Regional
+  doi: 10.1016/j.esr.2021.100365
+  journal: Energy for Sustainable Development
+  key_points: '1. This study goes beyond just the CLEWs framework, to emply robust-decision
+    making.
+
+
+    2. From this mixed methods approach, six key scenarios were formulated.
+
+
+    3. Concluded that ''the implementation of this novel approach for the first time
+    at the sub-national level allowed for a more in-depth engagement with local stakeholders
+    and responding to their needs more effectively''.'
+  link: https://www.sciencedirect.com/science/article/pii/S0973082622001351
+  open_access_data: 'Yes'
+  os_oa: 'No'
+  title: 'From participatory process to robust decision-making: An Agriculture-water-energy
+    nexus analysis for the Souss-Massa basin in Morocco'
+  tool: WEAP
+  url: https://doi.org/10.1016/j.esr.2021.100365
+  year: 2022
+- abstract: Africa's economic and population growth prospects are likely to increase
+    energy and water demands. This quantitative study shows that energy decarbonisation
+    pathways reduce water withdrawals (WWs) and water consumption (WC) relative to
+    the baseline scenario. However, the more aggressive decarbonisation pathway (1.5
+    °C) leads to higher overall WWs than the 2.0 °C scenario but lower WC levels by
+    2065. By 2065, investments in low-carbon energy infrastructure increase annual
+    WWs from 1% (52 bcm) in the 2.0 °C to 2% (85 bcm) in the 1.5 °C scenarios of total
+    renewable water resources in Africa compared to 3% (159 bcm) in the baseline scenario
+    with lower final energy demands in the mitigation scenarios. WC decreases from
+    1.2 bcm in the 2.0 °C to 1 bcm in the 1.5 °C scenario, compared to 2.2 bcm in
+    the baseline scenario by 2065, due to the lower water intensity of the low-carbon
+    energy systems. To meet the 1.5 °C pathway, the energy sector requires a higher
+    WW than the 2.0 °C scenario, both in total and per unit of final energy. Overall,
+    these findings demonstrate the crucial role of integrated water-energy planning,
+    and the need for joined-up carbon policy and water resources management for the
+    continent to achieve climate-compatible growth.
+  authors: Pappis et al.
+  country: Africa
+  coverage: Continental
+  doi:  10.1088/1748-9326/ac5ede
+  journal: Environmental Research Letters
+  key_points: '1. Continental study of Africa of using the TEMBA Model.
+
+
+    2. This study specifically looks at the connection between the energy and water
+    system on the continent.
+
+
+    3. Concludes that ''the results offer insights into how the policy agenda on sustainability
+    and economic growth could be strengthened at the global and continental level
+    by considering the interdependency of energy and water sectors in Africa.'''
+  link: 'https://iopscience.iop.org/article/10.1088/1748-9326/ac5ede '
+  open_access_data: 'Yes'
+  os_oa: 'Yes'
+  title: The effects of climate change mitigation strategies on the energy system
+    of Africa and its associated water footprint
+  tool: OSeMOSYS
+  url: https://doi.org/ 10.1088/1748-9326/ac5ede
+  year: 2022
+- abstract: Population growth, urbanization and economic development drive the use
+    of resources. Securing access to essential services such as energy, water, and
+    food, while achieving sustainable development, require that policy and planning
+    processes follow an integrated approach. The ‘Climate-, Land-, Energy- and Water-systems’
+    (CLEWs) framework assists the exploration of interactions between (and within)
+    CLEW systems via quantitative means. The approach was first introduced by the
+    International Atomic Energy Agency to conduct an integrated systems analysis of
+    a biofuel chain. The framework assists the exploration of interactions between
+    (and within) CLEW systems via quantitative means. Its multi-institutional application
+    to the case of Mauritius in 2012 initiated the deployment of the framework. A
+    vast number of completed and ongoing applications of CLEWs span different spatial
+    and temporal scales, discussing two or more resource interactions under different
+    political contexts. Also, the studies vary in purpose. This shapes the methods
+    that support CLEWs-type analyses. In this paper, we detail the main steps of the
+    CLEWs framework in perspective to its application over the years. We summarise
+    and compare key applications, both published in the scientific literature, as
+    working papers and reports by international organizations. We discuss differences
+    in terms of geographic scope, purpose, interactions represented, analytical approach
+    and stakeholder involvement. In addition, we review other assessments, which contributed
+    to the advancement of the CLEWs framework. The paper delivers recommendations
+    for the future development of the framework, as well as keys to success in this
+    type of evaluations.
+  authors: Ramos et al.
+  country: .nan
+  coverage: .nan
+  doi: 10.1088/1748-9326/abd34f
+  journal: Environmental Research Letters
+  key_points: '1. Provides an outline and description of the main phases in the CLEWs
+    framework and respective methods.
+
+
+    2. Discusses 23 historical and ongoing applications of CLEWs.
+
+
+    3. One conclusion highlighted that ''it would be beneficial at different levels,
+    to organise a community of practitioners, including the scientific community,
+    stakeholders, institutional implementers, practitioners from other nexus approaches.
+    Such identification of actors would contribute towards the multidisciplinary pool
+    of experts for more effective dissemination of knowledge across geographies and
+    sectors.'''
+  link: https://iopscience.iop.org/article/10.1088/1748-9326/abd34f/pdf
+  open_access_data: .nan
+  os_oa: .nan
+  title: 'The climate, land, energy, and water systems (CLEWs) framework: a retrospective
+    of activities and advances to 2019'
+  tool: .nan
+  url: https://doi.org/10.1088/1748-9326/abd34f
+  year: 2021
+- abstract: Integrated Assessment Models (IAMs) are important tools to analyse cross-sectoral
+    interdependencies and the use of global resources. Most current tools are highly
+    detailed and require expert knowledge and proprietary software to generate scenarios
+    and analyse their insights. In this paper, the complementary Global Least-cost
+    User-friendly CLEWs Open-Source Exploratory (GLUCOSE) model is presented as a
+    highly-aggregated global IAM, open and accessible from source to solver and using
+    the OSeMOSYS tool and the CLEWs framework. The model enables the exploration of
+    policy measures on the future development of the integrated resource system. Thanks
+    to its relatively simple structure, it requires low computational resources allowing
+    for the generation of a large number of scenarios or to quickly conduct preliminary
+    investigations. GLUCOSE is targeted towards education and training purposes by
+    a range of interested parties, from students to stakeholders and decision-makers,
+    to explore possible future pathways towards the sustainable management of global
+    resources.
+  authors: 'Beltramo et al. '
+  country: Global
+  coverage: Global
+  doi: 10.1016/j.envsoft.2021.105086
+  journal: Environmental Modelling and Software
+  key_points: "1. From the GLUCOSE Baseline scenario, four different global policy\
+    \ scenarios were developed: the 2Degree, Food, Materials and Total scenarios.\
+    \ \n\n2. Highlights the difficulties in collecting reliable data that are consistent\
+    \ across sources, with renowned sources often having different data values, to\
+    \ accurately characterize global aggregated models such as GLUCOSE. \n\n3. This\
+    \ work shows the need for assessing the influence and relevance of data uncertainty\
+    \ on model outcomes."
+  link: 'https://www.sciencedirect.com/science/article/pii/S1364815221001341?ref=pdf_download&fr=RR-2&rr=8be63cdfdf8371f0 '
+  open_access_data: 'Yes'
+  os_oa: 'Yes'
+  title: The Global Least-cost user-friendly CLEWs Open-Source Exploratory model
+  tool: OSeMOSYS
+  url: https://doi.org/10.1016/j.envsoft.2021.105086
+  year: 2021
+- abstract: Approaches that integrate feedback between climate, land, energy and water
+    (CLEW) have progressed significantly in scope and complexity. The so-called nexus
+    approaches have shown their usefulness in assessing strategies to achieve the
+    Sustainable Development Goals in the contexts of increasing demands, resource
+    scarcity, and climate change. However, most nexus analyses omit some important
+    inter-linkages that could actually be addressed. The omissions often stem from
+    technical and practical considerations, but also from limited dissemination of
+    new open-source frameworks incorporating recent advances. We review and present
+    a set of models that can meet the needs of decision makers for analysis tools
+    capable of addressing a broad range of nexus questions. Particular attention is
+    given to model accessibility, usability and community support. The other objective
+    of this review is to discuss research gaps, and critical needs and opportunities
+    for further model development from a scientific viewpoint. We explore at different
+    scales where and why some nexus interactions are most relevant. We find that both
+    very small scale and global models tend to neglect some CLEW interactions, but
+    for different reasons. The former rarely include climate impacts, which are often
+    marginal at the local level, while the latter mostly lack some aspects because
+    of the complexity of large full CLEW systems at the global level.
+  authors: 'Vinca et al. '
+  country: .nan
+  coverage: .nan
+  doi: 10.3389/fenvs.2021.691523
+  journal: Frontiers in Envrionmental Science
+  key_points: 'Not a study applying the CLEWs framework in a tool but a broad overview
+    of CLEWs models generally.
+
+
+    1. Looks at ''CLEW'' models, not just the CLEWs framework outlined by Howells
+    et al. 2013.
+
+
+    2. Limitation of integrated models or soft-linking modules is that data is often
+    simplified.
+
+
+    3. A set of common asusmptions and/or scenarios (such as Riahi et al. 2017) would
+    be beneficial.'
+  link: 'https://www.frontiersin.org/journals/environmental-science/articles/10.3389/fenvs.2021.691523/full '
+  open_access_data: .nan
+  os_oa: .nan
+  title: 'Climate-Land-Energy-Water Nexus Models Across Scales: Progress, Gaps and
+    Best Accessibility Practices'
+  tool: .nan
+  url: https://doi.org/10.3389/fenvs.2021.691523
+  year: 2021
+- abstract: Climate change impacts a natural and human system on the entire globe.
+    Climate-related extreme weather such as drought, floods, and heat waves alters
+    the ecosystems that society depends on. Climate, land, energy, and water systems
+    (CLEWS) are a critical aspect of high importance on resource availability, distribution,
+    and interconnection. The nexus provides a set of guidelines to South Africa that
+    aims on creating a level playing field for all sectors while achieving the aims
+    of the SDGs that are cross-sectoral and multilevel approaches to climate change.
+    The nexus expressed three domains that included resources, governance, and security.
+    It integrated a smart climate resilient with inclusion of the governance and involvement
+    of the stakeholders. Recognition of spatial and sector interdependencies should
+    inform policies, investment and institutional for enhancing nexus security and
+    climate change towards making transition green carbon deals. The nexus offers
+    an integrated approach that analyzes the trade-offs and synergies between the
+    different sectors in order to maximize the efficiency of using the resources that
+    adapt institutional and optimum policy arrangements. Economic transformation and
+    creation of employment through green economy is one of the COP26 green deal agendas
+    in curbing the carbon emissions (green house emission, industrial processes, fuel
+    combustion, and fugitive emissions) as mitigation to climate change, which is
+    cost-effective and economically efficient. The future climate change policy in
+    the developing countries is likely to be both promoted by climate technology transfer
+    and public-private cooperation (cross-sector partnership) through the technology
+    mechanism of the nexus and inclusion of the gender. 
+  authors: Njuguna et al.
+  country: South Africa
+  coverage: National
+  doi: 10.1007/978-3-030-45106-6_69
+  journal: African Handbook of Climate Change Adaptation
+  key_points: '1. Highlights SDG 2, 6, 7 and 13 as directly related to CLEWs, but
+    also that 12 of 17 are connected.
+
+
+    2. Discusses water and food security, but also ''nexus securities''.
+
+
+    3. 12 reccomendations were made in the conclusion, including how ''it is important
+    to take action of the spatial reach of intersectoral interdependencies (pricing,
+    control instruments, and command) and effects in the multilevel governance systems
+    to ensure appropriate participation by affected sectors
+
+    and stakeholders''.'
+  link: 'https://link.springer.com/referenceworkentry/10.1007/978-3-030-45106-6_69 '
+  open_access_data: .nan
+  os_oa: .nan
+  title: 'Smart Climate Resilient and Efficient Integrated Waste to Clean Energy System
+    in a Developing Country: Industry 4.0'
+  tool: .nan
+  url: https://doi.org/10.1007/978-3-030-45106-6_69
+  year: 2021
+- abstract: 'Currently available water-energy-food (WEF) modelling frameworks to analyse
+    cross-sectoral interactions often share one or more of the following gaps: (a)
+    lack of integration between sectors, (b) coarse spatial representation, and (c)
+    lack of reproducible methods of nexus assessment. In this paper, we present a
+    novel clustering tool as an expansion to the Climate-Land-Energy-Water-Systems
+    modelling framework used to quantify inter-sectoral linkages between water, energy,
+    and food systems. The clustering tool uses Agglomerative Hierarchical clustering
+    to aggregate spatial data related to the land and water sectors. Using clusters
+    of aggregated data reconciles the need for a spatially resolved representation
+    of the land-use and water sectors with the computational and data requirements
+    to efficiently solve such a model. The aggregated clusters, combined together
+    with energy system components, form an integrated resource planning structure.
+    The modelling framework is underpinned by an open-source energy system modelling
+    tool—OSeMOSYS—and uses publicly available data with global coverage. By doing
+    so, the modelling framework allows for reproducible WEF nexus assessments. The
+    approach is used to explore the inter-sectoral linkages between the energy, land-use,
+    and water sectors of Viet Nam out to 2030. A validation of the clustering approach
+    confirms that underlying trends actual crop yield data are preserved in the resultant
+    clusters. Finally, changes in cultivated area of selected crops are observed and
+    differences in levels of crop migration are identified.'
+  authors: 'Shivakumar et al. '
+  country: Vietnam
+  coverage: National
+  doi: 10.1088/1748-9326/ac2ce9
+  journal: Environmental Research Letters
+  key_points: '1. Clustering tool used to aggregate spatial data, in combination with
+    CLEWs model made in OSeMOSYS.
+
+
+    2. Stated that ''the clustering tool addresses the gap of improving the representation
+    of spatial data in traditional system optimisation models'', yet has some limitations.
+
+
+    3. Results suggest that crop migration in Viet Nam will allow for increased productivity
+    and avoid the worst impacts of land use change.'
+  link: 'https://iopscience.iop.org/article/10.1088/1748-9326/ac2ce9 '
+  open_access_data: 'Yes'
+  os_oa: 'Yes'
+  title: A clustering approach to improve spatial representation in water-energy-food
+    models
+  tool: OSeMOSYS
+  url: https://doi.org/10.1088/1748-9326/ac2ce9
+  year: 2021
+- abstract: Despite the excitement around the nexus between land, energy and water
+    resource systems, policies enacted to govern and use these resources are still
+    formulated in isolation, without considering the interdependencies. Using a Ugandan
+    case study, we highlight the impact that one policy change in the energy system
+    will have on other resource systems. We focus on deforestation, long term electricity
+    supply planning, crop production, water consumption, land-use change and climate
+    impacting greenhouse gas (GHG) trajectories. In this study, an open-source integrated
+    modelling framework is used to map the ripple effects of a policy change related
+    to reducing biomass consumption. We find that, despite the reduction in deforestation
+    of woodlands and forests, the GHG emissions in the power sector are expected to
+    increase in between 2040–2050, owing to higher fossil fuel usage. This policy
+    change is also likely to increase the cost of electricity generation, which in
+    turn affects the agricultural land types. There is an unforeseen shift from irrigated
+    to rainfed type land due to higher electricity costs. With this integrated model
+    setup for Uganda, we highlight the need for integrated policy planning that takes
+    into consideration the interlinkages between the resource systems and cross propagation
+    effects.
+  authors: 'Sridharan et al. '
+  country: Uganda
+  coverage: National
+  doi: 10.1088/2515-7620/abaf38
+  journal: Environmental Research Communications
+  key_points: '1. Two scenarios: baseline and sustainable development (sus-dev). Sus-dev
+    implements a reduction of biomass production to 50% of total from 80% by 2050.
+
+
+    2. Uganda, in addition to the transition in fuel usage (from biomass) and new
+    policy mechanisms (investments andsubsidies), needs a change in societal thinking.
+    For example, many urban dwellings, still use coal depsite access to electricity.
+    This societal chaneg will support the transition greatly.
+
+
+    3. Model limited as it does not take into account imports / exports for crops
+    or electricity. The water system is also simplified in the model.'
+  link: 'https://iopscience.iop.org/article/10.1088/2515-7620/abaf38/meta '
+  open_access_data: 'Yes'
+  os_oa: 'Yes'
+  title: Land, energy and water resource management and its impact on GHG emissions,
+    electricity supply and food production- Insights from a Ugandan case study
+  tool: OSeMOSYS
+  url: https://doi.org/10.1088/2515-7620/abaf38
+  year: 2020
+- abstract: (Background) There have been numerous studies that consider the nexus
+    interactions between energy systems, land use, water use and climate adaptation
+    and impacts. These studies have filled a gap in the literature to allow for more
+    effective policymaking by considering the trade-offs between land use, energy
+    infrastructure as well as the use of water for agriculture and providing energy
+    services. Though these studies fill a significant gap in the modelling literature,
+    we argue that more work is needed to effectively consider policy trade-offs between
+    the 17 United Nations sustainable development goals (SDGs) to avoid missing important
+    interactions.
+  authors: 'Niet et al. '
+  country: .nan
+  coverage: .nan
+  doi: 10.1186/s13705-020-00275-0
+  journal: Energy, Sustainability and Society
+  key_points: '1. Each of the 17 SDGs are examined individually.
+
+
+    2. Argued that SDG 16 and 17 cannot be met without open source models and open
+    access data.
+
+
+    3.There is a need to expand the common definition of the nexus of climate, land,
+    energy, and water to include the synergies and trade-offs of health impacts, ecological
+    diversity and the system requirements for human and environmental well-being.
+    It also stated that this should be relatively easy.'
+  link: https://energsustainsoc-biomedcentral-com.iclibezp1.cc.ic.ac.uk/articles/10.1186/s13705-020-00275-0
+  open_access_data: .nan
+  os_oa: .nan
+  title: 'Embedding the United Nations sustainable development goals into energy systems
+    analysis: expanding the food–energy–water nexus'
+  tool: .nan
+  url: https://doi.org/10.1186/s13705-020-00275-0
+  year: 2020
+- abstract: The North Western Sahara Aquifer System (NWSAS) is a vital groundwater
+    source in a notably water-scarce region. However, impetuous agricultural expansion
+    and poor resource management (e.g., over-irrigation, inefficient techniques) over
+    the past decades have raised a number of challenges. In this exploratory study,
+    we introduce an open access GIS-based model to help answer selected timely questions
+    related to the agriculture, water and energy nexus in the region. First, the model
+    uses spatial and tabular data to identify the location and extent of irrigated
+    cropland. Then, it employs spatially explicit climatic datasets and mathematical
+    formulation to estimate water and electricity requirements for groundwater irrigation
+    in all identified locations. Finally, it evaluates selected supply options to
+    meet the electricity demand and suggests the least-cost configuration in each
+    location. Results indicate that full irrigation in the basin requires ~3.25 billion
+    million m3 per year. This translates to ~730 GWh of electricity. Fossil fuels
+    do provide the least-cost electricity supply option due to lower capital and subsidized
+    operating costs. Hence, to improve the competitiveness of renewable technologies
+    (RT) (i.e., solar), a support scheme to drop the capital cost of RTs is critically
+    needed. Finally, moving towards drip irrigation can lead to ~47% of water abstraction
+    savings in the NWSAS area.
+  authors: Almulla et al.
+  country: Africa
+  coverage: Regional
+  doi: 10.3390/en17163923
+  journal: Sustainability
+  key_points: .nan
+  link: https://www.mdpi.com/2071-1050/12/17/7043
+  open_access_data: 'Yes'
+  os_oa: 'Yes'
+  title: A GIS-Based Approach to Inform Agriculture-Water-Energy Nexus Planning in
+    the North Western Sahara Aquifer System (NWSAS)
+  tool: NWSAS GIS Model
+  url: https://doi.org/10.3390/en17163923
+  year: 2020

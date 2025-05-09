@@ -1,0 +1,317 @@
+body {
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+}
+
+//
+// HEADER
+//
+// .assets {
+//   background-image: url('../img/background2.svg');
+//   filter: grayscale(50%); /* This will turn the image to grayscale */
+// }
+
+.page-header {
+  width: 100%;
+  background-color:  $blue-500;
+  -webkit-transition: background-image 0.6s ease-in-out 0s;
+  -moz-transition: background-image 0.6s ease-in-out 0s;
+  -o-transition: background-image 0.6s ease-in-out 0s;
+  transition: background-image 0.6s ease-in-out 0s;
+  background-image: url('../img/background2.svg');
+  background-size: 100%; /* Make the background image cover the entire area */
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.logo {
+  max-width: 120px;
+}
+ul {
+  list-style: none; /* Remove default list styling */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
+
+.fill-blue { fill: $blue; }
+.fill-green { fill: $green; }
+.fill-gray { fill: $gray; }
+.fill-gray-light { fill: $gray-light; }
+.fill-white {fill: $white;}
+.img-border {
+  border: 5px solid $white;
+  max-width: 100%;
+}
+
+.featured-orgs {
+  margin-right: -55px;
+  margin-left: -55px;
+  max-height: 348px;
+  overflow: hidden;
+  text-align: center;
+}
+
+#filter {
+  border-radius: 0;
+  border: none;
+  border-bottom: 2px solid #2D86FB;
+  box-shadow: none;
+  padding-left: 0;
+  padding-bottom: 0;
+}
+
+.org-include .no-matches { 
+  display: none; 
+}
+
+.org-name {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+//
+// Animations
+//
+
+.animate-in {
+  -webkit-transition: all 0.6s ease-in-out 0s;
+  transition: all 0.6s ease-in-out 0s;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  display: inline-block;
+  height: 100%;
+}
+
+.animate-out {
+  -webkit-transition: all 0.6s ease-in-out 0s;
+  transition: all 0.6s ease-in-out 0s;
+  -webkit-animation: scale-in 0.6s ease-in-out;
+  animation: scale-in 0.6s ease-in-out;
+
+}
+
+.fade-in-center {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes scale-in {
+  0% {
+    -webkit-transform: scale(.4);
+    transform: scale(.4);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@-webkit-keyframes scale-in {
+  0% {-webkit-transform: scale(.4);}
+  100% {-webkit-transform: scale(1);}
+}
+
+.pre-animate {
+  opacity: 0;
+  -webkit-transform: translateX(25px);
+  transform: translateX(25px);
+}
+
+.pre-animate-out {
+  opacity: 0;
+  -webkit-transform: scale(.4);
+  transform: scale(.4)
+}
+
+.a11y-table {
+  min-width: 640px;
+  border: $border;
+  margin-top: $spacer-3;
+
+  th {
+    background: #eeeeee;
+    font-size: 14px;
+    @include breakpoint(lg){
+      font-size: 16px;
+    }
+  }
+
+  tr {
+    font-size: 13px;
+    @include breakpoint(lg){
+      font-size: 14px;
+    }
+  }
+
+  td, th {
+    padding: $spacer-2;
+    border: $border;
+
+    @include breakpoint(md){
+      padding: $spacer-3;
+    }
+  }
+
+  td.criterion { width: 45%; }
+  td.support { width: 20%; font-size: $h4-size;}
+  td.comments { width: 35%; }
+
+
+}
+
+td.supports { color: $green-500;  }
+td.not-applicable { color: $gray-500; }
+td.supports-with-exceptions { color: $orange-500; }
+td.does-not-support { color: $red-500; }
+
+.form-control-lg {
+  padding: 10px 15px;
+  min-height: 42px;
+  font-size: 16px;
+  border-radius: 0.25em;
+}
+
+@mixin btn-transparent-active {
+  color: $gray-800;
+  background-color: $white;
+  background-image: none;
+  border-color: $white;
+}
+
+.btn-transparent {
+  color: $white;
+  background-color: transparent;
+  background-image: none;
+  border: $border-width $border-style $white-fade-50;
+
+  &:hover,
+  &:active {
+    @include btn-transparent-active;
+  }
+}
+
+//
+// Form validation
+//
+
+.form-control-invalid-text {
+  display: none;
+  margin-top: $spacer-1;
+  font-size: 85%;
+}
+
+.validated {
+  .form-control:invalid {
+    border-color: $red-500;
+
+    &:focus {
+      box-shadow: 0 0 0 3px rgba($red-500, .25);
+    }
+
+    + .form-control-invalid-text {
+      display: block;
+      color: $red-500;
+    }
+  }
+
+  .form-control:valid {
+    border-color: $green-500;
+
+    &:focus {
+      box-shadow: 0 0 0 3px rgba($green-500, .25);
+    }
+  }
+}
+
+// 调整 emoji 大小和对齐
+.nav-emoji {
+  font-size: 1.2em;
+  margin-right: 0.3em;
+  vertical-align: -0.1em;
+}
+// 自定义下拉按钮样式
+.dropdown {
+  summary.btn {
+    background: transparent;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    
+    &:hover, &:focus {
+      background: transparent;
+      opacity: 0.8;
+    }
+    
+    &::before {
+      display: none;  // 移除默认的三角形
+    }
+    
+    span {
+      display: inline-block;
+      text-align: center;
+    }
+  }
+
+  // 下拉菜单样式
+  .dropdown-menu {
+    background: var(--color-canvas-overlay);
+    border-color: var(--color-border-default);
+    
+    li {
+      a {
+        display: block;
+        padding: 8px 16px;
+        color: var(--color-fg-default);
+        text-decoration: none;
+        
+        &:hover {
+          color: var(--color-accent-fg);
+          background: var(--color-neutral-subtle);
+        }
+      }
+    }
+  }
+}
+
+// 可以调整三个点的大小和位置
+.f3 {
+  font-size: 24px;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+.social-icon {
+  font-size: 24px;  // 匹配 Octicons 的高度
+  height: 24px;
+  width: 24px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  
+  // 透明度和悬停效果
+  opacity: 0.7;
+  transition: opacity 0.2s ease;
+  
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.logo-hover {
+  transition: all 0.3s ease; /* 添加过渡效果 */
+}
+
+.logo-hover:hover {
+  filter: brightness(0.8); /* 变暗效果 */
+  /* 或者使用以下代码添加阴影效果 */
+  // box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
