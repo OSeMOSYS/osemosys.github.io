@@ -77,7 +77,7 @@ permalink: /about/
 
     <!-- Docs Button -->
     <a href="https://osemosys.readthedocs.io/" target="_blank" class="text-center text-decoration-none">
-      <img src="/assets/images/Rtdicon.png" alt="ReadTheDocs icon" style="height: 80px;" class="mb-2">
+      <img src="/assets/img/Rtdicon.png" alt="ReadTheDocs icon" style="height: 80px;" class="mb-2">
       <h3 class="text-primary mt-2">Our Model Documentation</h3>
     </a>
 
