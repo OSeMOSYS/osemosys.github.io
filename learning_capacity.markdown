@@ -118,9 +118,7 @@ permalink: /learning_capacity/
     <h3 class="alt-h3 mt-5">🛠️Flatpack Program</h3>
     <p>Content to be updated soon.</p>
 
-    <p class="text-center mt-5">
-      <a href="mailto:ccg@lboro.ac.uk?subject=Inquiry%20about%20OSeMOSYS%20Training" class="btn btn-outline">Contact us about training</a>
-    </p>
+   
 
   
 

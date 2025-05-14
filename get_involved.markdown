@@ -40,13 +40,13 @@ Become part of our Discourse community!</h2>
   </p>
 </div>
 
-<div class="container text-center my-5">
-  <div class="row justify-content-center">
+<div class="container my-5">
+  <div class="row justify-content-center align-items-start">
 
-    <div class="col-md-4 mb-4 d-flex flex-column align-items-center">
+    <!-- GitHub Button -->
+    <div class="col-md-4 mb-4 d-flex flex-column align-items-center text-center">
       <a href="https://github.com/OSeMOSYS" target="_blank" style="text-decoration: none;">
-        <!-- GitHub SVG icon -->
-        <svg height="80" viewBox="0 0 16 16" version="1.1" width="80" aria-hidden="true" class="mb-3">
+        <svg height="80" viewBox="0 0 16 16" width="80" aria-hidden="true" class="mb-3">
           <path fill-rule="evenodd" fill="#000000" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 
           6.53 5.47 7.59.4.07.55-.17.55-.38 
           0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52
@@ -63,6 +63,24 @@ Become part of our Discourse community!</h2>
         </svg>
         <h3 class="alt-h3 text-primary mt-2">Contribute to OSeMOSYS on GitHub</h3>
       </a>
+    </div>
+
+    <!-- Contribution Instructions -->
+    <div class="col-md-6 mb-4">
+      <h4 class="text-left mb-2">Contribute to This Website</h4>
+      <p class="text-gray" style="font-size: 0.95em;">
+        Want to share your OSeMOSYS-related work, training, or resources? We welcome external contributions to this site!
+      </p>
+      <p class="text-gray" style="font-size: 0.95em;">
+        <strong>How to contribute:</strong><br>
+        – Fork the repository: <a href="https://github.com/OSeMOSYS" target="_blank">github.com/OSeMOSYS</a><br>
+        – Edit or add content (e.g. publications, capacity building activities)<br>
+        – Submit a pull request<br>
+        – A site administrator will review and approve if appropriate
+      </p>
+      <p class="text-gray" style="font-size: 0.95em;">
+        This website exists to grow a self-sustaining OSeMOSYS community—open to all, not just CCG partners. Let’s make sure your work is visible and contributes to the global ecosystem!
+      </p>
     </div>
 
   </div>

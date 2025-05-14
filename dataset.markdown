@@ -35,9 +35,6 @@ permalink: /dataset/
       </div>
     </div>
 
-    <p class="text-center mt-5">
-      <a href="mailto:ccg@lboro.ac.uk?subject=Dataset%20Inquiry&body=Hello,%20I%20would%20like%20to%20know%20more%20about%20available%20datasets%20for%20OSeMOSYS..." class="btn btn-outline">Contact us about data tools</a>
-    </p>
 
   </div>
 </section>
