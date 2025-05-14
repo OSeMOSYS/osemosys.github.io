@@ -63,10 +63,11 @@ permalink: /about/
     </p>
   </div>
   
-  <!-- Icon Links -->
-  <div class="container text-center my-5">
+<!-- Icon Links -->
+<div class="container text-center my-5">
   <div class="row justify-content-center">
 
+    <!-- GitHub Repository -->
     <div class="col-md-4 mb-4 d-flex flex-column align-items-center">
       <a href="https://github.com/OSeMOSYS" target="_blank" style="text-decoration: none;">
         <!-- GitHub SVG icon -->
@@ -89,29 +90,16 @@ permalink: /about/
       </a>
     </div>
 
+    <!-- Model Documentation -->
     <div class="col-md-4 mb-4 d-flex flex-column align-items-center">
       <a href="https://osemosys.readthedocs.io/en/latest/index.html" target="_blank" style="text-decoration: none;">
-        <!-- Document SVG icon -->
-        <svg width="80" height="80" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="mb-3">
-          <path d="M4 2C2.9 2 2 2.9 2 4V20C2 21.1 
-          2.9 22 4 22H20C21.1 22 22 21.1 22 
-          20V8L16 2H4Z" fill="#eeeeee"/>
-          <path d="M16 2V8H22" fill="#eeeeee"/>
-          <path d="M12 17C13.66 17 15 15.66 
-          15 14C15 12.34 13.66 11 12 
-          11C10.34 11 9 12.34 9 14C9 15.66 
-          10.34 17 12 17Z" stroke="#000000" stroke-width="2"/>
-          <path d="M8.5 19.5C9.5 20.5 10.5 
-          21 12 21C13.5 21 14.5 20.5 15.5 
-          19.5" stroke="#000000" stroke-width="2"/>
-        </svg>
+        <img src="/assets/img/Rtdicon.png" alt="ReadTheDocs icon" class="mb-3" style="height: 80px;">
         <h3 class="alt-h3 text-primary mt-2">Our Model Documentation</h3>
       </a>
     </div>
 
   </div>
 </div>
-
 
   
 </section>
