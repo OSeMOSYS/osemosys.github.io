@@ -73,13 +73,13 @@ Become part of our Discourse community!</h2>
       </p>
       <p><strong>How to contribute:</strong></p>
       <ul style="padding-left: 1em;">
-        <li>Fork the repository: <a href="https://github.com/OSeMOSYS" target="_blank">github.com/OSeMOSYS</a></li>
-        <li>Edit or add content (e.g. publications, capacity building activities)</li>
-        <li>Submit a pull request</li>
-        <li>A site administrator will review and approve if appropriate</li>
+        <li>-Fork the repository: <a href="https://github.com/OSeMOSYS" target="_blank">github.com/OSeMOSYS</a></li>
+        <li>-Edit or add content (e.g. publications, capacity building activities)</li>
+        <li>-Submit a pull request</li>
+        <li>-A site administrator will review and approve if appropriate</li>
       </ul>
       <p>
-        This website exists to grow a self-sustaining OSeMOSYS community—open to all, not just CCG partners. Let’s make sure your work is visible and contributes to the global ecosystem!
+        This website exists to grow a self-sustaining OSeMOSYS community—open to all. Let’s make sure your work is visible and contributes to the global ecosystem!
       </p>
     </div>
 
