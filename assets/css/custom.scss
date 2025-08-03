@@ -11,21 +11,120 @@ body {
 //   filter: grayscale(50%); /* This will turn the image to grayscale */
 // }
 
+// Header configuration variables
+// To customize header colors, modify these variables:
+$header-bg-color: #f8f9fa; // Light grey background - change to any color
+$header-text-color: #24292e; // Dark text color - change to any color
+$title-color: #24292e; // Title color - change to any color
+$header-link-color: #24292e; // Header link color - change to any color
+
 .page-header {
   width: 100%;
-  background-color:  $blue-500;
+  background-color: $header-bg-color;
   -webkit-transition: background-image 0.6s ease-in-out 0s;
   -moz-transition: background-image 0.6s ease-in-out 0s;
   -o-transition: background-image 0.6s ease-in-out 0s;
   transition: background-image 0.6s ease-in-out 0s;
-  background-image: url('../img/background2.svg');
-  background-size: 100%; /* Make the background image cover the entire area */
+  // background-image: url('../img/background2.svg'); // Commented out for clean look
+  background-size: 100%;
   background-repeat: no-repeat;
   background-position: center center;
+  
+  // Header text styling
+  color: $header-text-color;
+  
+  a {
+    color: $header-link-color;
+    text-decoration: none;
+    
+    &:hover {
+      color: darken($header-link-color, 20%);
+      text-decoration: underline;
+    }
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: $title-color;
+  }
+  
+  // Icon styling
+  svg {
+    fill: $header-text-color;
+  }
+  
+  // Header layout styling
+  .header-layout {
+    position: relative;
+    min-height: 140px; // Reduced height for more compact header
+  }
+  
+  .header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem; // Reduced margin for more compact layout
+  }
+  
+  .logo-container {
+    flex: 0 0 auto;
+    width: 100px; // Match logo width
+  }
+  
+  .title-container {
+    flex: 1;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto;
+  }
+  
+  .mobile-menu {
+    flex: 0 0 auto;
+    width: 100px; // Match logo width for balance
+    text-align: right;
+  }
+  
+  // Navigation bottom styling
+  .navigation-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+  
+  .navigation-bottom {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    white-space: nowrap; // Prevent wrapping
+    overflow-x: auto; // Allow horizontal scroll if needed
+    
+    li {
+      display: inline-block;
+      margin: 0 0.5rem; // Reduce margin to fit more items
+      white-space: nowrap; // Prevent individual items from wrapping
+      
+      a {
+        font-size: 1em; // Slightly smaller font to fit better
+        font-weight: 500;
+        padding: 0.3rem 0.8rem; // Reduce padding to fit more items
+        border-radius: 4px;
+        transition: all 0.3s ease;
+        white-space: nowrap; // Prevent text wrapping
+        
+        &:hover {
+          background-color: rgba($header-text-color, 0.1);
+          transform: translateY(-2px);
+        }
+      }
+    }
+  }
 }
 
 .logo {
-  max-width: 120px;
+  max-width: 100px; // Reduced logo size for more compact header
 }
 ul {
   list-style: none; /* Remove default list styling */
@@ -230,13 +329,13 @@ td.does-not-support { color: $red-500; }
   }
 }
 
-// 调整 emoji 大小和对齐
+// Adjust emoji size and alignment
 .nav-emoji {
   font-size: 1.2em;
   margin-right: 0.3em;
   vertical-align: -0.1em;
 }
-// 自定义下拉按钮样式
+// Custom dropdown button styles
 .dropdown {
   summary.btn {
     background: transparent;
@@ -252,7 +351,7 @@ td.does-not-support { color: $red-500; }
     }
     
     &::before {
-      display: none;  // 移除默认的三角形
+      display: none;  // Remove default triangle
     }
     
     span {
@@ -261,7 +360,7 @@ td.does-not-support { color: $red-500; }
     }
   }
 
-  // 下拉菜单样式
+  // Dropdown menu styles
   .dropdown-menu {
     background: var(--color-canvas-overlay);
     border-color: var(--color-border-default);
@@ -282,7 +381,7 @@ td.does-not-support { color: $red-500; }
   }
 }
 
-// 可以调整三个点的大小和位置
+// Adjust three dots size and position
 .f3 {
   font-size: 24px;
   line-height: 1;
@@ -290,14 +389,14 @@ td.does-not-support { color: $red-500; }
 }
 
 .social-icon {
-  font-size: 24px;  // 匹配 Octicons 的高度
+  font-size: 24px;  // Match Octicons height
   height: 24px;
   width: 24px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   
-  // 透明度和悬停效果
+  // Opacity and hover effects
   opacity: 0.7;
   transition: opacity 0.2s ease;
   
@@ -307,11 +406,95 @@ td.does-not-support { color: $red-500; }
 }
 
 .logo-hover {
-  transition: all 0.3s ease; /* 添加过渡效果 */
+  transition: all 0.3s ease; /* Add transition effect */
 }
 
 .logo-hover:hover {
-  filter: brightness(0.8); /* 变暗效果 */
-  /* 或者使用以下代码添加阴影效果 */
+  filter: brightness(0.8); /* Darken effect */
+  /* Or use the following code to add shadow effect */
   // box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+// About page subtitle styles - inherits from alt-h3
+.aboutpage-subtitle {
+  @extend .alt-h3; // Inherit all alt-h3 properties
+  font-size: 1.15rem; // Override only the font size
+  
+  // Make specific headings smaller
+  &#more-than-just-code {
+    font-size: 1.5rem;
+  }
+}
+
+// Icon links styling - simple and reliable centering
+.icon-links-section {
+  padding: 3rem 1rem;
+  text-align: center;
+  
+  .icon-links-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    max-width: 600px;
+    margin: 0 auto;
+    
+    @media (max-width: 768px) {
+      flex-direction: column;
+      gap: 2rem;
+    }
+  }
+  
+  .icon-link-item {
+    flex: 0 0 auto;
+    text-align: center;
+    
+    a {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      padding: 1rem;
+      border-radius: 8px;
+      cursor: pointer;
+      
+      &:hover {
+        transform: translateY(-5px);
+        background-color: rgba(0, 0, 0, 0.05);
+        
+        img {
+          box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+          transform: scale(1.05);
+        }
+        
+        h3 {
+          color: #0056b3;
+        }
+      }
+      
+      img {
+        width: 80px;
+        height: 80px;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease;
+        margin-bottom: 1rem;
+      }
+      
+      h3 {
+        margin: 0;
+        font-size: 1.1rem;
+        color: #0366d6;
+        text-align: center;
+        max-width: 200px;
+        transition: color 0.3s ease;
+        
+        @media (max-width: 768px) {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
 }

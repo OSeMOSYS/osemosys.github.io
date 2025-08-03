@@ -15,30 +15,37 @@
 
 <body{% if page.id %} id="{{ page.id }}"{% endif %} class="{{ page.layout }}">
 
-  <div class="page-header pt-4 pb-5">
+  <div class="page-header pt-2 pb-3">
     <div class="container-lg">
-      <div class="d-flex justify-content-between align-items-center">
-
-        <div style="display: inline-block;">
-          <a href="{{ "/" | relative_url}}"><img class="logo py-3" src="{{ "/assets/img/osemosys-logo.png" | relative_url}}" alt="CLEWs"></a>
+      <!-- Header layout with centered title and bottom navigation -->
+      <div class="header-layout">
+        <!-- Logo and title row -->
+        <div class="header-top">
+          <div class="logo-container">
+            <a href="{{ "/" | relative_url}}"><img class="logo py-3" src="{{ "/assets/img/osemosys-logo.png" | relative_url}}" alt="OSeMOSYS"></a>
+          </div>
+          <div class="title-container">
+            <a href="{{ "/" | relative_url}}" style="font-size: 2.5em; font-weight: bold;">OSeMOSYS</a>
+          </div>
+          <!-- Small screen Primer dropdown -->
+          <details class="dropdown details-reset details-overlay d-md-none mobile-menu">
+            <summary class="btn btn-large float-right" aria-haspopup="true">
+              <span class="text-white text-bold float-right"> {% octicon three-bars height:28 class:"fill-white mr-2" aria-label:terminal %}
+              </span>
+            </summary>
+            <ul class="dropdown-menu dropdown-menu-se" style="display: inline-block;">
+              {% include subpage_links.html %}
+            </ul>
+          </details>  
         </div>
-        <div class="text-center" style="display: inline-block;">
-          <a href="{{ "/" | relative_url}}"><img class="logo py-3" src="{{ "/assets/img/logomark1.svg" | relative_url}}" alt="CLEWs"></a>
-          <ul class="d-none d-md-block">
+        
+        <!-- Bottom navigation -->
+        <div class="navigation-container">
+          <ul class="d-none d-md-block navigation-bottom">
             {% include subpage_links.html %}
           </ul>     
         </div>
-        <!-- 在小屏幕显示 Primer dropdown -->
-        <details class="dropdown details-reset details-overlay d-md-none" style="display: inline-block; margin-left: auto;margin-top: 2.5rem;">
-          <summary class="btn btn-large float-right" aria-haspopup="true">
-            <span class="text-white text-bold float-right"> {% octicon three-bars height:28 class:"fill-white mr-2" aria-label:terminal %}
-            </span>
-          </summary>
-          <ul class="dropdown-menu dropdown-menu-se" style="display: inline-block;">
-            {% include subpage_links.html %}
-          </ul>
-        </details>  
-      </div>  
+      </div>
     </div>
   
     <!-- .full-width here gets closed on support-page.html and home.html layouts -->
