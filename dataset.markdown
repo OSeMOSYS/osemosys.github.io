@@ -12,18 +12,6 @@ permalink: /dataset/
 
   <div class="col-lg-10 mx-auto text-left">
 
-    <h3 class="alt-h3 mt-5">🌍 Starter Data Kits</h3>
-    <div class="row align-items-center mb-5">
-      <div class="col-md-6">
-        <p>Take your skills to the next level by modelling a zero-order representation of your country using specially designed national data packages adapted for OSeMOSYS.</p>
-        <p>
-          <a href="https://climatecompatiblegrowth.com/starter-kits/" target="_blank" class="btn btn-outline">Explore Starter Kits</a>
-        </p>
-      </div>
-    </div>
-
-    <hr>
-
     <h3 class="alt-h3 mt-5">🖥️ Modelling User Interface for OSeMOSYS (MUIO)</h3>
     <div class="row align-items-center mb-5">
       <div class="col-md-6">
@@ -34,7 +22,6 @@ permalink: /dataset/
         </ul>
       </div>
     </div>
-
 
   </div>
 </section>

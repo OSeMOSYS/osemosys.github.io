@@ -1,67 +1,151 @@
-- name: ccg
-  type: github
-  github: climatecompatiblegrowth
-  logo: /assets/img/CCG logo.png
-  height: 80
-  display_name: CCG
-  url: https://climatecompatiblegrowth.com/ 
+# Partner institutions for homepage display
+partners:
+  - name: afdb
+    logo: /assets/img/partners/afdb.png
+    display_name: African Development Bank
+    url: https://www.afdb.org/
+    
+  - name: european-commission
+    logo: /assets/img/partners/european-commission.png
+    display_name: European Commission
+    url: https://ec.europa.eu/
+    
+  - name: iaea
+    logo: /assets/img/partners/iaea.png
+    display_name: IAEA
+    url: https://www.iaea.org/
+    
+  - name: irena
+    logo: /assets/img/partners/irena.png
+    display_name: IRENA
+    url: https://www.irena.org/
+    
+  - name: kth
+    logo: /assets/img/partners/kth.png
+    display_name: KTH Royal Institute of Technology
+    url: https://www.kth.se/en
+    
+  - name: ncsu
+    logo: /assets/img/partners/ncsu.png
+    display_name: North Carolina State University
+    url: https://www.ncsu.edu/
+    
+  - name: psi
+    logo: /assets/img/partners/psi.png
+    display_name: Paul Scherrer Institute
+    url: https://www.psi.ch/
+    
+  - name: sei
+    logo: /assets/img/partners/sei.png
+    display_name: Stockholm Environment Institute
+    url: https://www.sei.org/
+    
+  - name: sfu
+    logo: /assets/img/partners/sfu.png
+    display_name: Simon Fraser University
+    url: https://www.sfu.ca/
+    
+  - name: stanford
+    logo: /assets/img/partners/stanford.png
+    display_name: Stanford University
+    url: https://www.stanford.edu/
+    
+  - name: ucl
+    logo: /assets/img/partners/ucl.png
+    display_name: University College London
+    url: https://www.ucl.ac.uk/
+    
+  - name: uct
+    logo: /assets/img/partners/uct.png
+    display_name: University of Cape Town
+    url: https://www.uct.ac.za/
+    
+  - name: undesa
+    logo: /assets/img/partners/undesa.png
+    display_name: UN DESA
+    url: https://www.un.org/development/desa/
+    
+  - name: unido
+    logo: /assets/img/partners/unido.png
+    display_name: UNIDO
+    url: https://www.unido.org/
+    
+  - name: worldbank
+    logo: /assets/img/partners/worldbank.png
+    display_name: World Bank Group
+    url: https://www.worldbank.org/
+    
+  - name: wwf
+    logo: /assets/img/partners/wwf.png
+    display_name: World Wildlife Fund
+    url: https://www.worldwildlife.org/
 
-- name: lboro
-  logo: /assets/img/Loughborough University.png
-  height: 60
-  display_name: Loughborough University
-  url: "/coming-soon" 
- 
-- name: optimus
-  logo: /assets/img/OpTIMUS logo.jpg
-  height: 60
-  display_name: OpTIMUS
-  url: "/coming-soon" 
+# Organization members/contributors (legacy - can be moved to separate file if needed)
+organizations:
+  - name: ccg
+    type: github
+    github: climatecompatiblegrowth
+    logo: /assets/img/CCG logo.png
+    height: 80
+    display_name: CCG
+    url: https://climatecompatiblegrowth.com/ 
 
-- name: ou
-  logo: /assets/img/OU_Master_LOGO_BLUE_63mm.png
-  height: 60
-  display_name: Open University
-  url: "/coming-soon" 
+  - name: lboro
+    logo: /assets/img/Loughborough University.png
+    height: 60
+    display_name: Loughborough University
+    url: "/coming-soon" 
 
-- name: SFU
-  logo: /assets/img/SEE Logo_RGB.png
-  height: 80
-  display_name: School of Sustainable Energy Engineering
-  url: https://www.iaea.org/topics/economics/energy-economic-and-environmental-analysis/climate-land-energy-water-strategies 
+  - name: optimus
+    logo: /assets/img/OpTIMUS logo.jpg
+    height: 60
+    display_name: OpTIMUS
+    url: "/coming-soon" 
 
-- name: undesa
-  logo: /assets/img/UNDESA logo.png
-  height: 80
-  display_name: UNDESA
-  url: https://un-modelling.github.io/modelling-tools/
+  - name: ou
+    logo: /assets/img/OU_Master_LOGO_BLUE_63mm.png
+    height: 60
+    display_name: Open University
+    url: "/coming-soon" 
 
-- name: kth
-  logo: /assets/img/Kth_logo.svg_-266x300.png
-  height: 80
-  display_name: KTH
-  url: https://www.energy.kth.se/energy-systems/research-areas/integrated-climate-land-energy-and-water-systems-1.1183760 
+  - name: SFU
+    logo: /assets/img/SEE Logo_RGB.png
+    height: 80
+    display_name: School of Sustainable Energy Engineering
+    url: https://www.iaea.org/topics/economics/energy-economic-and-environmental-analysis/climate-land-energy-water-strategies 
 
-- name: ukaid
-  logo: /assets/img/UK Aid.png
-  height: 60
-  display_name: UK Aid
-  url: "/coming-soon"
+  - name: undesa
+    logo: /assets/img/UNDESA logo.png
+    height: 80
+    display_name: UNDESA
+    url: https://un-modelling.github.io/modelling-tools/
 
-- name: iaea
-  logo: /assets/img/IAEA (slogan).png
-  height: 60
-  display_name: IAEA
-  url: https://www.iaea.org/topics/economics/energy-economic-and-environmental-analysis/climate-land-energy-water-strategies 
+  - name: kth
+    logo: /assets/img/Kth_logo.svg_-266x300.png
+    height: 80
+    display_name: KTH
+    url: https://www.energy.kth.se/energy-systems/research-areas/integrated-climate-land-energy-and-water-systems-1.1183760 
 
-- name: oxford
-  logo: /assets/img/University-of-Oxford.svg
-  height: 50
-  display_name: University of Oxford
-  url: "/coming-soon" 
-  
-- name: cambridge
-  logo: /assets/img/University-of-Cambridge-Logo.svg
-  height: 50
-  display_name: University of Cambridge
-  url: "/coming-soon" 
+  - name: ukaid
+    logo: /assets/img/UK Aid.png
+    height: 60
+    display_name: UK Aid
+    url: "/coming-soon"
+
+  - name: iaea
+    logo: /assets/img/IAEA (slogan).png
+    height: 60
+    display_name: IAEA
+    url: https://www.iaea.org/topics/economics/energy-economic-and-environmental-analysis/climate-land-energy-water-strategies 
+
+  - name: oxford
+    logo: /assets/img/University-of-Oxford.svg
+    height: 50
+    display_name: University of Oxford
+    url: "/coming-soon" 
+    
+  - name: cambridge
+    logo: /assets/img/University-of-Cambridge-Logo.svg
+    height: 50
+    display_name: University of Cambridge
+    url: "/coming-soon" 
