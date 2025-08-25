@@ -5,13 +5,12 @@ description: OSeMOSYS is an open source modelling system for long-term integrate
 org_count: 60
 permalink: /
 ---
-<section class="page-header bg-white py-5 fade-in-center">
-  <div class="container-lg p-responsive text-center" style="background: rgba(255, 255, 255, 0.9); padding: 2rem;">
-    <h1 class="alt-h1 mb-4">The Open Source Energy Modelling System (OSeMOSYS)</h1>
-    {% include intro_text.html %}
-    <a href="{{ site.baseurl }}/about/" class="btn btn-outline-light">Learn More →</a>
+  <div class="container-lg p-responsive text-center py-4 py-lg-6 my-xl-4" style="padding: 2rem;">
+    <h1 class="alt-h1 mb-4 intro-title">The Open Source Energy Modelling System (OSeMOSYS)</h1>
+    <a href="{{ site.baseurl }}/about/" class="btn btn-outline-primary sky-blue-accent" style="border-color: #3490dc; color: #3490dc;">Learn More</a>
   </div>
-</section>
+</div><!-- ends .full-width that started in header.html -->
+
 
 <section class="bg-gray-light py-5">
   <div class="container-lg p-responsive text-center">
@@ -81,108 +80,30 @@ permalink: /
 }
 </style>
 
-<section>
-
+<section class="">
   <div class="container-lg p-responsive py-5 py-md-6">
+    <h2 class="alt-h2 text-center mb-3 mt-lg-6" id="partner-institutions">Active Partner Institutions and Programmes</h2>
+    <!-- <p class="alt-lead text-gray text-center col-md-10 mx-auto">Active Partner Institutions and Programmes</a>.</p> -->
+  </div>
   <div style="overflow: hidden;">
- 
-    <div class="container text-center">
-      <h2 class="alt-h2 mb-4">Active Partner Institutions and Programmes</h2>
-      <div class="logo-grid">
-  
-        
-      <a href="https://www.afdb.org/" target="_blank">
-        <img src="{{ site.baseurl }}/assets/img/partners/afdb.png" alt="African Development Bank">
-      </a>
-
-      <a href="https://ec.europa.eu/" target="_blank">
-        <img src="{{ site.baseurl }}/assets/img/partners/european-commission.png" alt="European Commission">
-      </a>
-
-      <a href="https://www.iaea.org/" target="_blank">
-        <img src="{{ site.baseurl }}/assets/img/partners/iaea.png" alt="IAEA">
-      </a>
-
-      <a href="https://www.irena.org/" target="_blank">
-        <img src="{{ site.baseurl }}/assets/img/partners/irena.png" alt="IRENA">
-      </a>
-
-      <a href="https://www.kth.se/en" target="_blank">
-        <img src="{{ site.baseurl }}/assets/img/partners/kth.png" alt="KTH Royal Institute of Technology">
-      </a>
-
-      <a href="https://www.ncsu.edu/" target="_blank">
-        <img src="{{ site.baseurl }}/assets/img/partners/ncsu.png" alt="North Carolina State University">
-      </a>
-
-      <a href="https://www.psi.ch/" target="_blank">
-        <img src="{{ site.baseurl }}/assets/img/partners/psi.png" alt="Paul Scherrer Institute">
-      </a>
-
-      <a href="https://www.sei.org/" target="_blank">
-        <img src="{{ site.baseurl }}/assets/img/partners/sei.png" alt="Stockholm Environment Institute">
-      </a>
-
-      <a href="https://www.sfu.ca/" target="_blank">
-        <img src="{{ site.baseurl }}/assets/img/partners/sfu.png" alt="Simon Fraser University">
-      </a>
-
-      <a href="https://www.stanford.edu/" target="_blank">
-        <img src="{{ site.baseurl }}/assets/img/partners/stanford.png" alt="Stanford University">
-      </a>
-
-      <a href="https://www.ucl.ac.uk/" target="_blank">
-        <img src="{{ site.baseurl }}/assets/img/partners/ucl.png" alt="University College London">
-      </a>
-
-      <a href="https://www.uct.ac.za/" target="_blank">
-        <img src="{{ site.baseurl }}/assets/img/partners/uct.png" alt="University of Cape Town">
-      </a>
-
-      <a href="https://www.un.org/development/desa/" target="_blank">
-        <img src="{{ site.baseurl }}/assets/img/partners/undesa.png" alt="UN DESA">
-      </a>
-
-      <a href="https://www.unido.org/" target="_blank">
-        <img src="{{ site.baseurl }}/assets/img/partners/unido.png" alt="UNIDO">
-      </a>
-
-      <a href="https://www.worldbank.org/" target="_blank">
-        <img src="{{ site.baseurl }}/assets/img/partners/worldbank.png" alt="World Bank Group">
-      </a>
-
-      <a href="https://www.worldwildlife.org/" target="_blank">
-        <img src="{{ site.baseurl }}/assets/img/partners/wwf.png" alt="World Wildlife Fund">
-      </a>
-
-      </div>
+    {% assign count = 0 %}
+    {% for partner in site.data.orgs.partners %}
+      {% assign count = count | plus:1 %}
+    {% endfor %}
+    <!-- <div class="featured-orgs text-center p-2 m-2">
+      {% for org in site.featured_orgs %}
+      <a href="https://github.com/{{ org }}" class="animate-in">{% avatar user=org size=80 %}</a>
+      {% endfor %}
+    </div> -->
+    <div class="featured-orgs text-center p-2 m-2">
+        {% for partner in site.data.orgs.partners %}
+          <a href="{{ partner.url }}" 
+             class="animate-in" target="_blank">
+            <img src="{{ site.baseurl }}{{ partner.logo }}" width="auto" max-width="160" height="80" margin="10" alt="{{ partner.display_name }}">
+          </a>
+        {% endfor %}
     </div>
-  </section>
- 
-    <style>
-    .logo-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1.5rem;
-}
-
-.logo-grid a {
-  display: inline-block;
-  transition: filter 0.3s ease;
-}
-
-.logo-grid a:hover img {
-  filter: brightness(0.7);
-}
-
-.logo-grid img {
-  max-height: 80px;
-  width: auto;
-  object-fit: contain;
-}
-    </style>
-
+  </div>
 </section>
 
 

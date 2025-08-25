@@ -15,7 +15,7 @@
 
 <body{% if page.id %} id="{{ page.id }}"{% endif %} class="{{ page.layout }}">
 
-  <div class="page-header pt-2 pb-3">
+  <div class="page-header bg-white py-5 fade-in-center pt-2 pb-3">
     <div class="container-lg">
       <!-- Header layout with centered title and bottom navigation -->
       <div class="header-layout">
@@ -27,23 +27,26 @@
           <div class="title-container">
             <a href="{{ "/" | relative_url}}" style="font-size: 2.5em; font-weight: bold;">OSeMOSYS</a>
           </div>
-          <!-- Small screen Primer dropdown -->
-          <details class="dropdown details-reset details-overlay d-md-none mobile-menu">
-            <summary class="btn btn-large float-right" aria-haspopup="true">
-              <span class="text-white text-bold float-right"> {% octicon three-bars height:28 class:"fill-white mr-2" aria-label:terminal %}
-              </span>
+          <!-- Mobile menu toggle -->
+          <details class="mobile-menu-toggle d-md-none">
+            <summary class="mobile-menu-btn" aria-haspopup="true">
+              {% octicon chevron-down height:20 class:"mobile-menu-icon" aria-label:menu %}
+              <span class="mobile-menu-text">Menu</span>
             </summary>
-            <ul class="dropdown-menu dropdown-menu-se" style="display: inline-block;">
+            
+            <!-- Mobile navigation - shown when menu is open -->
+            <ul class="mobile-navigation">
               {% include subpage_links.html %}
             </ul>
           </details>  
         </div>
         
-        <!-- Bottom navigation -->
+        <!-- Navigation -->
         <div class="navigation-container">
-          <ul class="d-none d-md-block navigation-bottom">
+          <!-- Desktop navigation -->
+          <ul class="d-none d-md-flex navigation-bottom">
             {% include subpage_links.html %}
-          </ul>     
+          </ul>
         </div>
       </div>
     </div>
