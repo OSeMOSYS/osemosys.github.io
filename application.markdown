@@ -95,47 +95,28 @@ permalink: /applications/
     <p class="text-center mb-5">For a broader analysis of applications and advancements in OSeMOSYS, see the following peer-reviewed publications:</p>
 
     <div class="publications-list">
-      <div class="publication-item">
-        <div class="publication-header">
-          <h3 class="publication-title">Developing a community of practice around an open source energy modelling tool</h3>
-          <div class="publication-authors">Niet T, Shivakumar A, Gardumi F, Usher W, Williams E, Howells M.</div>
-          <div class="publication-journal">Energy Strategy Reviews, 2021</div>
-          <a href="https://doi.org/10.1016/j.esr.2021.100650" target="_blank" class="publication-link">https://doi.org/10.1016/j.esr.2021.100650</a>
-        </div>
-        <div class="publication-abstract">
-          Energy modelling is critical for addressing challenges such as integrating variable renewable energy and addressing climate impacts. This paper describes the updated code management structure and code updates, the revised community forum and the outreach activities that have built a vibrant community of practice around OSeMOSYS. The code management structure has allowed code improvements to be incorporated into the model, the community forum provides users with a place to ask and answer questions, and the outreach activities connect members of the community. Overall, these three pillars show how a community of practice can be built around an open source tool and provides an example for other developers and users of open source software wanting to build a community of practice.
-        </div>
+      {% for publication in site.data.publications %}
+      <div class="publication-item mb-4 p-4 border border-gray-200 rounded">
+        <h4 class="publication-title mb-2">
+          <a href="{{ publication.url }}" target="_blank" class="text-decoration-none">
+            {{ publication.title }}
+          </a>
+        </h4>
+        <p class="publication-authors text-muted mb-2">
+          {{ publication.authors }} ({{ publication.year }})
+        </p>
+        <p class="publication-journal mb-2">
+          <em>{{ publication.journal }}</em>
+        </p>
+        <p class="publication-abstract text-justify">
+          {{ publication.abstract }}
+        </p>
       </div>
-
-      <div class="publication-item">
-        <div class="publication-header">
-          <h3 class="publication-title">From the development of an open-source energy modelling tool to its application and the creation of communities of practice: The example of OSeMOSYS</h3>
-          <div class="publication-authors">Gardumi F, Shivakumar A, Morrison R, Taliotis C, Broad O, Beltramo A, et al.</div>
-          <div class="publication-journal">Energy Strategy Reviews, 2018</div>
-          <a href="https://doi.org/10.1016/j.esr.2018.03.005" target="_blank" class="publication-link">https://doi.org/10.1016/j.esr.2018.03.005</a>
-        </div>
-        <div class="publication-abstract">
-          In the last decades, energy modelling has supported energy planning by offering insights into the dynamics between energy access, resource use, and sustainable development. Especially in recent years, there has been an attempt to strengthen the science-policy interface and increase the involvement of society in energy planning processes. This has, both in the EU and worldwide, led to the development of open-source and transparent energy modelling practices. This paper describes the role of an open-source energy modelling tool in the energy planning process and highlights its importance for society. Specifically, it describes the existence and characteristics of the relationship between developing an open-source, freely available tool and its application, dissemination and use for policy making. Using the example of the Open Source energy Modelling System (OSeMOSYS), this work focuses on practices that were established within the community and that made the framework's development and application both relevant and scientifically grounded.
-        </div>
-      </div>
-
-      <div class="publication-item">
-        <div class="publication-header">
-          <h3 class="publication-title">Uncovering the applications, developments, and future research directions of the open-source energy modelling system (OSeMOSYS): A systematic literature review</h3>
-          <div class="publication-authors">Plazas-Niño F, Tan N, Howells M, Foster V, Quirós-Tortós J.</div>
-          <div class="publication-journal">Energy for Sustainable Development, 2025</div>
-          <a href="https://doi.org/10.1016/j.esd.2024.101629" target="_blank" class="publication-link">https://doi.org/10.1016/j.esd.2024.101629</a>
-        </div>
-        <div class="publication-abstract">
-          Energy system modelling for sustainable development has advanced significantly as a critical tool for designing cost-effective energy transitions. Modellers and analysts have used these tools to support international organizations and policymakers in crafting and making decisions about energy policy. Open-source frameworks have been instrumental in this progress, enhancing stakeholder engagement, transparency, and public acceptance. Among these, the Open-Source Energy Modelling System (OSeMOSYS) stands out as a key example, widely applied in energy transition and planning studies. As the body of OSeMOSYS literature rapidly expands, it is essential to track research advancements to guide both current and future modellers. This paper presents a systematic literature review, exploring the applications, developments, and research trends related to OSeMOSYS over the last 10 years. The findings highlight a significant growth in OSeMOSYS-based research, with an annual increase of approximately 28 %, and most applications occurring in Africa and Latin America, though largely conducted by European institutions. Six key application areas were identified, such as capacity expansion planning in the power sector, transport sector planning, and sector coupling opportunities. Nine categories of complementary methods commonly integrated with OSeMOSYS were also categorized, including power sector performance, stakeholder engagement, and geospatial assessments. A thorough review of code enhancements demonstrates the framework's adaptability to various fields, such as flexibility assessment, hydropower systems, and storage modelling. Furthermore, seven key future research directions were identified: operational feasibility, uncertainty evaluation, temporal and spatial resolutions, technological detail, storage modelling, and macroeconomic impacts. This paper aims to serve as a comprehensive resource for modellers, analysts, and users, offering insights into research questions, complementary methods, available code enhancements, and potential future directions for the use of OSeMOSYS.
-        </div>
-      </div>
+      {% endfor %}
     </div>
 
-    <div class="text-center mt-5">
-      <a href="mailto:contact@osemosys.org" class="btn btn-outline">Have an application to showcase? Let us know →</a>
-    </div>
   </div>
+  
 </section>
 
 <style>
