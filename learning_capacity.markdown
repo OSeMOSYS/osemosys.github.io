@@ -24,6 +24,30 @@ permalink: /learning_capacity/
     </div>
 
     <div class="mt-3 animate-in">
+      <h3 class="alt-h3 mt-3 animate-in" style="font-size: 1.25rem;">📦 Starter Data Kits</h3>
+      <p class="animate-in" style="font-size: 0.95rem;">Take your skills to the next level by modelling a zero-order representation of your country using specially designed national data packages adapted for OSeMOSYS.</p>
+      <div class="row align-items-center mb-4 animate-in">
+        <div class="col-md-6">
+          <p class="animate-in" style="font-size: 0.95rem;">Enhance your skills in energy systems modelling with our user-friendly interface and additional learning materials, enabling comprehensive national-level modelling of the power and transport sectors.</p>
+          <ul class="animate-in">
+            <li><strong>Download Interface</strong> – <em>Coming soon</em></li>
+            <li><strong>Teaching Material (Zenodo)</strong> – <em>Coming soon</em></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-3 animate-in">
+      <h3 class="alt-h3 mt-1 animate-in" style="font-size: 1.25rem;">🎓 Energy Modelling Community (YouTube Playlist)</h3>
+      <div class="row align-items-center text-left mb-4 animate-in">
+        <div class="col-md-6">
+          <p class="animate-in" style="font-size: 0.95rem;">Explore insights and community discussions from the Energy Modelling Platform and Climate Compatible Growth events.</p>
+          <p class="animate-in"><a href="https://www.youtube.com/watch?v=of8JpyEd8_Y&list=PLhLN8V8JSUnJgt4SIE7gnXXncVEaXh0Ir" target="_blank" class="btn btn-outline-primary sky-blue-accent d-block d-sm-inline-block px-1 px-md-3" style="border-color: #3490dc; color: #3490dc;">Watch on YouTube →</a></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-3 animate-in">
       <h3 class="alt-h3 mt-3 animate-in" style="font-size: 1.25rem;">
         <a href="https://climatecompatiblegrowth.com/energy-modelling-platform/" class="text-dark font-weight-bold" style="text-decoration: none;">
           <strong>🌍 Energy Modelling Platforms (EMPs)</strong>
@@ -72,17 +96,6 @@ permalink: /learning_capacity/
         </div>
       </div>
     </div>
-
-    <h3 class="alt-h3 mt-1 animate-in" style="font-size: 1.25rem;">🎓 Energy Modelling Community (YouTube Playlist)</h3>
-    <div class="row align-items-center text-left mb-4 animate-in">
-      <div class="col-md-6">
-        <p class="animate-in" style="font-size: 0.95rem;">Explore insights and community discussions from the Energy Modelling Platform and Climate Compatible Growth events.</p>
-        <p class="animate-in"><a href="https://www.youtube.com/watch?v=of8JpyEd8_Y&list=PLhLN8V8JSUnJgt4SIE7gnXXncVEaXh0Ir" target="_blank" class="btn btn-outline-primary sky-blue-accent d-block d-sm-inline-block px-1 px-md-3" style="border-color: #3490dc; color: #3490dc;">Watch on YouTube →</a></p>
-      </div>
-    </div>
-
-    <h3 class="alt-h3 mt-3 animate-in" style="font-size: 1.25rem;">📦 Starter Data Kits</h3>
-    <p class="animate-in" style="font-size: 0.95rem;">Take your skills to the next level by modelling a zero-order representation of your country using specially designed national data packages adapted for OSeMOSYS.</p>
 
     <h3 class="alt-h3 mt-3 animate-in" style="font-size: 1.25rem;">🛠️ Flatpack Program</h3>
     <p class="animate-in" style="font-size: 0.95rem;">Content to be updated soon.</p>
