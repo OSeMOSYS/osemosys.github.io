@@ -262,7 +262,7 @@ $header-accent-color: #3490dc; // Sky blue accent color
     left: 0;
     right: 0;
     text-align: center;
-    
+    z-index: 9;
     @media (max-width: 768px) {
       position: static;
       margin-top: 2rem;
@@ -833,9 +833,13 @@ td.does-not-support { color: $red-500; }
 // Show mobile navigation when menu is open
 .mobile-menu-toggle[open] .mobile-navigation {
   display: flex;
+<<<<<<< HEAD
   max-height: 500px; // 设置最大高度以允许展开
   padding: 0.75rem;
   margin-top: 0.5rem;
   opacity: 1;
   transform: translateY(0);
 }
+=======
+}
+>>>>>>> 1b5d3b4b640b9657d2ef1f1e2f3510d4772908b4
