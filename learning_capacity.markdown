@@ -8,9 +8,9 @@ permalink: /learning_capacity/
 <section class="bg-gray-light py-5 fade-in-center">
   <div class="container-lg p-responsive">
 
-    <div class="text-center mb-3 animate-in">
-      <h2 class="alt-h2 mb-3 animate-in">Learning & Capacity Building</h2>
-    </div>
+  <div class="text-center fade-in-center">
+    <h2 class="alt-h2 mb-4">Learning & Capacity Building</h2>
+  </div>
     <div class="mt-3 animate-in">
       <h3 class="alt-h3 mt-3 animate-in" style="font-size: 1.25rem;">
         <a href="https://www.open.edu/openlearncreate/course/view.php?id=13558" class="text-dark font-weight-bold" style="text-decoration: none;">
