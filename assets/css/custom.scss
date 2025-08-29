@@ -8,6 +8,7 @@ body {
 .intro-title {
   color: #1e3a8a !important; // Deep blue for titles
   font-weight: 200;
+  margin-top: 10px;
 }
 
 .intro-text {
@@ -103,6 +104,7 @@ $header-accent-color: #3490dc; // Sky blue accent color
     position: relative;
     min-height: 100px; // Cleaner, more compact
     padding: 1.5rem 0;
+    transition: padding-bottom 0.3s ease;
     
     // Add background image only to header
     // &::before {
@@ -124,6 +126,13 @@ $header-accent-color: #3490dc; // Sky blue accent color
     @media (max-width: 768px) {
       min-height: auto; // 
       padding: 1rem 0 1rem 0; // 
+    }
+    
+    // 当移动菜单展开时，为父容器增加底部空间
+    &.menu-expanded {
+      @media (max-width: 768px) {
+        padding-bottom: 12rem; // 为展开的菜单留出空间
+      }
     }
   }
   
@@ -773,7 +782,7 @@ td.does-not-support { color: $red-500; }
 
 // Mobile navigation styling
 .mobile-navigation {
-  margin: 0.5rem 0 0 0;
+  margin: 0.5rem 0.5rem 0 0;
   padding: 0;
   list-style: none;
   display: flex; // 改为flex，通过max-height控制显示
@@ -785,8 +794,8 @@ td.does-not-support { color: $red-500; }
   border-radius: 12px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(10px);
-  position: relative;
-  z-index: 9999;
+  position: absolute;
+  z-index: 10001;
   max-height: 0;
   overflow: hidden;
   transition: all 0.3s ease-in-out;
@@ -831,15 +840,16 @@ td.does-not-support { color: $red-500; }
 }
 
 // Show mobile navigation when menu is open
-.mobile-menu-toggle[open] .mobile-navigation {
+.mobile-menu-toggle.menu-open .mobile-navigation {
   display: flex;
-<<<<<<< HEAD
   max-height: 500px; // 设置最大高度以允许展开
   padding: 0.75rem;
   margin-top: 0.5rem;
   opacity: 1;
   transform: translateY(0);
 }
-=======
+
+// Rotate the menu icon when open
+.mobile-menu-toggle.menu-open .mobile-menu-icon {
+  transform: rotate(180deg);
 }
->>>>>>> 1b5d3b4b640b9657d2ef1f1e2f3510d4772908b4

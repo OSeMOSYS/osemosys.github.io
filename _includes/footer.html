@@ -10,6 +10,42 @@
 
 <!--     <script src="{{ "/assets/vendor/jquery/dist/jquery.min.js" | relative_url}}"></script> -->
     <script>anchors.add('.org-type h4');</script>
+    
+    <!-- Mobile menu toggle functionality -->
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+        const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
+        const headerLayout = document.querySelector('.header-layout');
+        
+        if (mobileMenuBtn && mobileMenuToggle && headerLayout) {
+          mobileMenuBtn.addEventListener('click', function() {
+            const isOpen = mobileMenuToggle.classList.contains('menu-open');
+            
+            if (isOpen) {
+              // 关闭菜单
+              mobileMenuToggle.classList.remove('menu-open');
+              headerLayout.classList.remove('menu-expanded');
+              mobileMenuBtn.setAttribute('aria-expanded', 'false');
+            } else {
+              // 打开菜单
+              mobileMenuToggle.classList.add('menu-open');
+              headerLayout.classList.add('menu-expanded');
+              mobileMenuBtn.setAttribute('aria-expanded', 'true');
+            }
+          });
+          
+          // Close menu when clicking outside
+          document.addEventListener('click', function(event) {
+            if (!mobileMenuToggle.contains(event.target)) {
+              mobileMenuToggle.classList.remove('menu-open');
+              headerLayout.classList.remove('menu-expanded');
+              mobileMenuBtn.setAttribute('aria-expanded', 'false');
+            }
+          });
+        }
+      });
+    </script>
     {% if page.url == "/community/" %}
       <script src="{{ "/assets/js/community.js" | relative_url}}"></script>
     {% elsif page.url == "/" %}

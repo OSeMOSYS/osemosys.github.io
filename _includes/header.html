@@ -28,17 +28,17 @@
             <a href="{{ "/" | relative_url}}" style="font-size: 2.5em; font-weight: bold;">OSeMOSYS</a>
           </div>
           <!-- Mobile menu toggle -->
-          <details class="mobile-menu-toggle d-md-none">
-            <summary class="mobile-menu-btn" aria-haspopup="true">
+          <div class="mobile-menu-toggle d-md-none">
+            <button class="mobile-menu-btn" aria-haspopup="true" aria-expanded="false">
               {% octicon chevron-down height:20 class:"mobile-menu-icon" aria-label:menu %}
               <span class="mobile-menu-text">Menu</span>
-            </summary>
+            </button>
             
             <!-- Mobile navigation - shown when menu is open -->
             <ul class="mobile-navigation">
               {% include subpage_links.html %}
             </ul>
-          </details>  
+          </div>  
         </div>
         
         <!-- Navigation -->
