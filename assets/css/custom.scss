@@ -262,7 +262,7 @@ $header-accent-color: #3490dc; // Sky blue accent color
     left: 0;
     right: 0;
     text-align: center;
-    
+    z-index: 9;
     @media (max-width: 768px) {
       position: static;
       margin-top: 2rem;
